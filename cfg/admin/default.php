@@ -27,11 +27,13 @@
     $deff[ 'mythemes-mask-color' ]                          = '#000000';
     $deff[ 'mythemes-mask-opacity' ]                        = 60;
 
+//buttons removed by using value of 0
     $deff[ 'mythemes-show-first-button' ]                   = 0;
     $deff[ 'mythemes-first-button-label' ]                  = __( 'Get Support' , 'myThemes' );
     $deff[ 'mythemes-first-button-desc' ]                   = __( 'Forum support for Verbo premium WordPress theme' , 'myThemes' );
     $deff[ 'mythemes-first-button-url' ]                    = esc_url( home_url( "/#" ) );
 
+//Buttons were removed by using value of 0
     $deff[ 'mythemes-show-second-button' ]                  = 0;
     $deff[ 'mythemes-second-button-label' ]                 = __( 'Preview Details' , 'myThemes' );
     $deff[ 'mythemes-second-button-desc' ]                  = __( 'Details about Verbo premium WordPress theme' , 'myThemes' );

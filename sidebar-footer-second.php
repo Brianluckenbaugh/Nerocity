@@ -1,6 +1,6 @@
 <?php
     if ( dynamic_sidebar( 'footer-second' ) ){
-        /* IF NOT EMPTY */    
+        /* IF NOT EMPTY */
     }
     else{
         /* IF EMPTY */
@@ -8,9 +8,10 @@
             echo '<div class="widget widget_text">';
             echo '<h5>Address</h5>';
             echo '<div class="textwidget">';
-            echo '1 Infinite Loop</br>';
-            echo 'Cupertino, CA 95014</br>';
-            echo 'United States</div>';
+            echo 'Nunyadamnbiz</br>';
+            echo 'Manassas, Va 20109</br>';
+            echo 'United States</br>';
+            echo 'Earth</div>';
             echo '</div>';
         }
     }
